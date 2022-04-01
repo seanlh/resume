@@ -110,8 +110,12 @@ $endif$
 \section*{Work Experience}
 \noindent
 $for(experience)$
+$if(experience.employer)$
 \note{$experience.location$}\textsc{$experience.employer$}\\
-\note{$experience.years$}\emph{$experience.job$}\\$if(experience.points)$[.2cm]$else$[-.4cm]$endif$
+$else$
+\note{$experience.location$}\textsc{$experience.employer$}\\[-.6cm]
+$endif$
+\note{$experience.years$}\emph{$experience.job$}\\[.2cm]
 $if(experience.points)$
 \vspace{-20pt}
 \begin{itemize}
