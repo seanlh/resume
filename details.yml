@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Sean L. Hernandez
-address: Orlando, FL
+address: San Francisco, CA
 phone: +1 954 740 9844
 email: sean.lh@icloud.com
 # Insert URLs without http://
@@ -11,39 +11,37 @@ urls:
 # Sections
 
 skills:
-  - Libraries/Frameworks--React Native, React, TVMLKit JS, Material-UI, Bootstrap
-  - Languages--TypeScript, JavaScript, Java, C#, BrightScript, HTML, CSS
-  - Technologies--Firebase, GitHub Actions, Redux, Amazon Web Services
+  - Mobile and Full-Stack development
+  - React (Native), Redux, TypeScript
 experience:
-  - years: Sep 2019--Present
+  - years: May 2021--Present
+    employer: Adobe
+    job: Software Development Engineer III
+    location: San Francisco, CA
+    points:
+      - Worked on the engagement platform (React, TypeScript) to deliver in-app messaging, paywalls, and other engagement features.
+      - Worked with design teams to standardize in-app flows in accordance with their respective store guidelines.
+      - Managed the content delivery stack end-to-end including campaign setup, audience targeting, content creation and localization, product offering setup, and client-side rendering.
+      - Onboarded content, client, and localization teams and provided client support to ensure new initiatives delivered on-time.
+  - years: Sep 2019--Apr 2021
     employer: Comcast NBCUniversal
     job: Software Engineer II
     location: Orlando, FL
   - years: Dec 2018--Sep 2019
     job: Software Engineer I
     points:
-      - Worked on the GolfPass iOS, Android, tvOS, Roku, FireTV, and Web platforms.
-      - Implemented in-app purchasing flow which increased sales by ~$15,000/month.
-      - Overhauled UI/UX which raised the app store ratings from 2.8 stars to 4.8 stars.
+      - Worked on the GolfPass iOS, Android, and FireTV (React Native), tvOS (TVMLKit JS), Roku (BrightScript), and Web (C#, Java) platforms.
+      - Led various initiatives including in-app purchasing (nearly doubling monthly sales), increasing app store ratings (from 2.8 to 4.8 stars), and adding type safety (TypeScript) and central state (Redux) to the codebase.
       - Developed and planned end-to-end features (web service endpoints, app services, app state, and app views) such as Chromecast, session handling, favorites, live-streaming, and site localization preferences.
-      - Implemented type safety and central state in the app using TypeScript and Redux.
-      - Handled application lifecycle management including participating in product roadmapping meetings, sprint planning, release scheduling, and over-the-air-updates.
-      - Performed on-call duties and monitored system stability.
+      - Managed application lifecycle including participating in product roadmapping meetings, sprint planning, release scheduling, over-the-air-updates, and monitored system stability.
   - years: May 2018--Dec 2018
     employer: SAIC
     job: Software Engineer Intern
     location: Orlando, FL
-    points:
-      - Worked on procurement modernization project with 1,000+ expected users and 65,000+ records using ASP.NET Core, Entity Framework, Domain-Driven Design, Inversion of Control, and an MVC architecture.
-      - Integrated Documentum and a file-upload module using the service façade pattern.
-      - Developed a registration service with email and token validation to provision new suppliers.
   - years: Feb 2018--May 2018
     employer: University of Central Florida
     job: Techranger (Software Developer)
     location: Orlando, FL
-    points:
-      - Worked on UDOIT, an LTI integration (used by over 50 institutions worldwide) built using PHP and SQL that identifies accessibility issues in online course content.
-      - Dockerized UDOIT to deploy a web server, database, and application services using Docker-Compose.
 
 education:
   - year: Aug 2014--Dec 2019
