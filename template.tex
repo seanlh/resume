@@ -34,13 +34,7 @@ $endif$
 \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont{$mainfont$}[
-  Ligatures={Common},
-  Numbers={OldStyle},
-  BoldFont = EBGaramond-Bold,
-  ItalicFont = EBGaramond08-Italic,
-  SmallCapsFont = EBGaramondSC08-Regular
-]
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
@@ -50,6 +44,7 @@ $endif$
 \newcommand{\note}[1]{\marginnote{\scriptsize #1}}
 \renewcommand*{\raggedleftmarginnote}{}
 \setlength{\marginparsep}{7pt}
+\setlength{\marginparwidth}{.8in}
 \reversemarginpar
 
 % HEADINGS
