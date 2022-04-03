@@ -14,7 +14,7 @@ experience:
   - years: 5/2021--
     employer: Adobe
     job: Software Development Engineer III
-    location: San Francisco, CA
+    location: San Francisco
     points:
       - Worked on the Engagement SDK standardizing the delivery of in-app messages, paywalls, and push notifications by using a shared codebase (Objective-C, Java, C++) bridged to a frontend client app whose codebase also included a web-based previewing tool (React, TypeScript).
       - Created dynamic templates for paywalls and in-app messages enabling marketing teams to run experiments and reducing load on client teams.
@@ -23,7 +23,7 @@ experience:
   - years: 9/2019--4/2021
     employer: Comcast NBCUniversal
     job: Software Engineer II
-    location: Orlando, FL
+    location: Orlando
   - years: 10/2018--9/2019
     job: Software Engineer I
     points:
@@ -34,13 +34,13 @@ experience:
   - years: 5/2018--10/2018
     employer: SAIC
     job: Software Engineer Intern
-    location: Orlando, FL
+    location: Orlando
     points:
       - Worked on a procurement modernization project with 1,000+ expected users and 65,000+ records (ASP.NET Core, Entity Framework) by adding integrations including Documentum (file management) and features including user registration (with email and token validation) and file upload.
   - years: 2/2018--5/2018
     employer: University of Central Florida
     job: Techranger (Software Developer)
-    location: Orlando, FL
+    location: Orlando
     points:
       - Worked on UDOIT, an LTI integration used by over 50 institutions worldwide that identifies accessibility issues in online course content, adding an admin panel (PHP, SQL) and making testing easier by Dockerizing the codebase.
 
@@ -49,7 +49,7 @@ education:
     subject: Computer Science
     degree: Bachelor of Science
     institute: University of Central Florida
-    location: Orlando, FL
+    location: Orlando
 
 # Settings
 mainfont: Hoefler Text
