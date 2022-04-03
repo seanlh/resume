@@ -35,6 +35,8 @@ $endif$
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+\DeclareFontShape{TU}{HoeflerText(0)}{m}{sc}%
+       {<-> "Hoefler\space Text:Letter\space Case=Small\space Caps"}{}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
