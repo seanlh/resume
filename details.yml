@@ -11,7 +11,7 @@ urls:
 # Sections
 
 experience:
-  - years: May 2021--Present
+  - years: 5/2021--
     employer: Adobe
     job: Software Development Engineer III
     location: San Francisco, CA
@@ -20,24 +20,24 @@ experience:
       - Created dynamic templates for paywalls and in-app messages enabling marketing teams to run experiments and reducing load on client teams.
       - Worked with design teams to standardize in-app purchase flows for various types of users (inidivudal, enterprise, anonymous) in accordance with their respective store guidelines.
       - Managed the content delivery stack end-to-end including campaign setup, audience targeting, content creation and localization, product offering setup, client-side rendering, client and content team onboarding, and debugging.
-  - years: Sep 2019--Apr 2021
+  - years: 9/2019--4/2021
     employer: Comcast NBCUniversal
     job: Software Engineer II
     location: Orlando, FL
-  - years: Dec 2018--Sep 2019
+  - years: 10/2018--9/2019
     job: Software Engineer I
     points:
       - Worked on and managed the GolfPass mobile application suite which included the iOS, Android, FireTV, tvOS, and Roku platforms by maximizing the amount of shared code (React Native, TVMLKit JS, TypeScript) while also adding and bridging features on the web platform (Java).
       - Led various initiatives including in-app purchasing (nearly doubling monthly sales), increasing app store ratings (from 2.8 to 4.8 stars), and adding type safety to the codebase.
       - Developed features end-to-end including web service endpoints including Chromecast, session handling, favorites, live-streaming, and site localization preferences.
       - Managed application lifecycle including participating in product roadmapping meetings, sprint planning, release scheduling, over-the-air-updates, and monitoring system stability.
-  - years: May 2018--Dec 2018
+  - years: 5/2018--10/2018
     employer: SAIC
     job: Software Engineer Intern
     location: Orlando, FL
     points:
       - Worked on a procurement modernization project with 1,000+ expected users and 65,000+ records (ASP.NET Core, Entity Framework) by adding integrations including Documentum (file management) and features including user registration (with email and token validation) and file upload.
-  - years: Feb 2018--May 2018
+  - years: 2/2018--5/2018
     employer: University of Central Florida
     job: Techranger (Software Developer)
     location: Orlando, FL
@@ -45,7 +45,7 @@ experience:
       - Worked on UDOIT, an LTI integration used by over 50 institutions worldwide that identifies accessibility issues in online course content, adding an admin panel (PHP, SQL) and making testing easier by Dockerizing the codebase.
 
 education:
-  - year: Aug 2014--Dec 2019
+  - year: 8/2014--10/2019
     subject: Computer Science
     degree: Bachelor of Science
     institute: University of Central Florida
