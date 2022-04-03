@@ -10,19 +10,16 @@ urls:
 
 # Sections
 
-skills:
-  - Mobile and Full-Stack development
-  - React (Native), Redux, TypeScript
 experience:
   - years: May 2021--Present
     employer: Adobe
     job: Software Development Engineer III
     location: San Francisco, CA
     points:
-      - Worked on the engagement platform (React, TypeScript) to deliver in-app messaging, paywalls, and other engagement features.
-      - Worked with design teams to standardize in-app flows in accordance with their respective store guidelines.
-      - Managed the content delivery stack end-to-end including campaign setup, audience targeting, content creation and localization, product offering setup, and client-side rendering.
-      - Onboarded content, client, and localization teams and provided client support to ensure new initiatives delivered on-time.
+      - Worked on the Engagement SDK used across various clients standardizing the delivery of in-app messages, paywalls, and push notifications by using a shared and native codebase (Objective-C, Java, C++) bridged to a frontend client app whose codebase also included a web-based previewing tool (React, TypeScript).
+      - Created dynamic templates for paywalls and in-app messages enabling marketing teams to run experiments and reducing load on client teams.
+      - Worked with design teams to standardize in-app purchase flows for various types of users (inidivudal, enterprise, anonymous) in accordance with their respective store guidelines.
+      - Managed the content delivery stack end-to-end including campaign setup, audience targeting, content creation and localization, product offering setup, client-side rendering, client and content team onboarding, and debugging.
   - years: Sep 2019--Apr 2021
     employer: Comcast NBCUniversal
     job: Software Engineer II
@@ -30,18 +27,22 @@ experience:
   - years: Dec 2018--Sep 2019
     job: Software Engineer I
     points:
-      - Worked on the GolfPass iOS, Android, and FireTV (React Native), tvOS (TVMLKit JS), Roku (BrightScript), and Web (C#, Java) platforms.
-      - Led various initiatives including in-app purchasing (nearly doubling monthly sales), increasing app store ratings (from 2.8 to 4.8 stars), and adding type safety (TypeScript) and central state (Redux) to the codebase.
-      - Developed and planned end-to-end features (web service endpoints, app services, app state, and app views) such as Chromecast, session handling, favorites, live-streaming, and site localization preferences.
-      - Managed application lifecycle including participating in product roadmapping meetings, sprint planning, release scheduling, over-the-air-updates, and monitored system stability.
+      - Worked on and managed the GolfPass mobile application suite which included the iOS, Android, FireTV, tvOS, and Roku platforms by maximizing the amount of shared code (React Native, TVMLKit JS, TypeScript) while also adding and bridging features on the web platform (Java).
+      - Led various initiatives including in-app purchasing (nearly doubling monthly sales), increasing app store ratings (from 2.8 to 4.8 stars), and adding type safety to the codebase.
+      - Developed features end-to-end including web service endpoints including Chromecast, session handling, favorites, live-streaming, and site localization preferences.
+      - Managed application lifecycle including participating in product roadmapping meetings, sprint planning, release scheduling, over-the-air-updates, and monitoring system stability.
   - years: May 2018--Dec 2018
     employer: SAIC
     job: Software Engineer Intern
     location: Orlando, FL
+    points:
+      - Worked on a procurement modernization project with 1,000+ expected users and 65,000+ records (ASP.NET Core, Entity Framework) by adding integrations including Documentum (file management) and features including user registration (with email and token validation) and file upload.
   - years: Feb 2018--May 2018
     employer: University of Central Florida
     job: Techranger (Software Developer)
     location: Orlando, FL
+    points:
+      - Worked on UDOIT, an LTI integration used by over 50 institutions worldwide that identifies accessibility issues in online course content, adding an admin panel (PHP, SQL) and making testing easier by Dockerizing the codebase.
 
 education:
   - year: Aug 2014--Dec 2019
@@ -52,7 +53,7 @@ education:
 
 # Settings
 mainfont: Hoefler Text
-fontsize: 8pt
+fontsize: 10pt
 lang: en-US
 geometry: letterpaper, left=1.4in, right=1in, top=1in, bottom=1in
 ---
