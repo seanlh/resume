@@ -21,11 +21,11 @@ email: friedrich@thevoid.de
 experience:
 - years: 1879--1889
   employer: Freiberufler
-  job: Freier Philisoph
+  title: Freier Philisoph
   city: Sils-Maria
 - years: 1869–-1879
   employer: Universität Basel
-  job: Professor für klassische Philologie
+  title: Professor für klassische Philologie
   city: Basel
 ```
 
@@ -37,7 +37,7 @@ Thanks to [pandoc](http://pandoc.org/), we can then access our data from `templa
 $for(experience)$
   $experience.years$\\
   \textsc{$experience.employer$}\\
-  \emph{$experience.job$}\\
+  \emph{$experience.title$}\\
   $experience.city$\\[.2cm]
 $endfor$
 ```
