@@ -10,11 +10,11 @@
 \geometry{$geometry$}
 
 % Do not indent paragraphs
-\setlength\parindent{0in}
+\setlength\parindent{0pt}
 
 % Enable multicolumns
 \usepackage{multicol}
-\setlength{\columnsep}{-3.5cm}
+% \setlength{\columnsep}{-6cm}
 
 % Uncomment to suppress page numbers
 \pagenumbering{gobble}
@@ -56,6 +56,10 @@ $endif$
 \subsectionfont{\rmfamily\mdseries\scshape\normalsize}
 \subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
 
+% LIST
+%--------------------------------
+\usepackage{enumitem}
+
 % PDF SETUP
 %--------------------------------
 \usepackage{hyperref}
@@ -79,68 +83,67 @@ $endif$
 {\LARGE $name$}
 
 \begin{multicols}{2}
+  \columnbreak
+  $for(address)$
+    $address$\\
+  $endfor$
+  $phone$\\
 
-\columnbreak
-$for(address)$
-$address$\\
-$endfor$
-$for(urls)$
-\href{http://$urls$}{$urls$}\\
-$endfor$
-
-\columnbreak
-$phone$\\
-\href{mailto:$email$}{$email$}\\
+  \columnbreak
+  \href{mailto:$email$}{$email$}\\
+  $for(urls)$
+    \href{http://$urls$}{$urls$}\\
+  $endfor$
 \end{multicols}
 
 $if(intro)$
-$intro$
+  $intro$
 $endif$
 
-\vspace{-20pt}
-
 $if(skills)$
-\subsection*{Skills}
-\begin{itemize}
-    $for(skills)$
-      \item $skills$
-    $endfor$
-\end{itemize}
+  \subsection*{Skills}
+  \begin{itemize}[noitemsep, topsep=2pt]
+      $for(skills)$
+        \item $skills$
+      $endfor$
+  \end{itemize}
+  \ \\
 $endif$
 
 \section*{Work Experience}
-\noindent
 $for(experience)$
-$if(experience.employer)$
-\note{$experience.location$}\textsc{$experience.employer$}\\
-$else$
-\note{$experience.location$}\textsc{$experience.employer$}\\[-.6cm]
-$endif$
-\note{$experience.years$}\emph{$experience.title$}\\[.2cm]
-$if(experience.points)$
-\vspace{-20pt}
-\begin{itemize}
-    $for(experience.points)$
-      \item $experience.points$
-    $endfor$
-\end{itemize}
-$endif$
+  $if(experience.employer)$
+    \textsc{$experience.employer$}\\
+    $if(experience.location)$
+      $experience.location$\\
+    $endif$
+  $else$
+    \\
+  $endif$
+  \note{$experience.years$}\emph{$experience.title$}
+  $if(experience.points)$
+    \begin{itemize}[noitemsep, topsep=2pt]
+      $for(experience.points)$
+        \item $experience.points$
+      $endfor$
+    \end{itemize}
+    \ \\
+  $endif$
 $endfor$
 
 $if(education)$
-\section*{Education}
-\noindent
-$for(education)$
-\note{$education.location$}\textsc{$education.institute$}\\
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\[.2cm]
-$endfor$
+  \section*{Education}
+  $for(education)$
+    \textsc{$education.institute$}$if(education.location)$, $education.location$\\$endif$
+    \note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
+  $endfor$
 $endif$
 
 $if(languages)$
-\section*{Languages}
-$for(languages)$
-\emph{$languages.language$} ($languages.proficiency$)\\
-$endfor$
+  \section*{Languages}
+  $for(languages)$
+    \emph{$languages.language$} ($languages.proficiency$)\\
+  $endfor$
 $endif$
 
 \end{document}

@@ -10,16 +10,19 @@ urls:
 
 # Sections
 
+skills:
+  - Mobile and Full-Stack software development
+  - React Native, React, TypeScript
+
 experience:
   - years: 5/2021--
     employer: Adobe
     title: Software Development Engineer III
     location: San Francisco
     points:
-      - Worked on the Engagement SDK standardizing the delivery of in-app messages, paywalls, and push notifications by using a shared codebase (Objective-C, Java, C++) bridged to a frontend client app whose codebase also included a web-based previewing tool (React, TypeScript).
-      - Created dynamic templates for paywalls and in-app messages enabling marketing teams to run experiments and reducing load on client teams.
-      - Worked with design teams to standardize in-app purchase flows for various types of users (inidivudal, enterprise, anonymous) in accordance with their respective store guidelines.
-      - Managed the content delivery stack end-to-end including campaign setup, audience targeting, content creation and localization, product offering setup, client-side rendering, client and content team onboarding, and debugging.
+      - Developed dynamic templates for in-app messages and paywalls for multiple client apps with millions of users with TypeScript and React.
+      - Maintained a web-based preview tool for in-app messages and paywalls.
+      - Added visual regression testing suite and automated testing.
   - years: 9/2019--4/2021
     employer: Comcast NBCUniversal
     title: Software Engineer II
@@ -27,22 +30,25 @@ experience:
   - years: 10/2018--9/2019
     title: Software Engineer I
     points:
-      - Worked on and managed the GolfPass mobile application suite which included the iOS, Android, FireTV, tvOS, and Roku platforms by maximizing the amount of shared code (React Native, TVMLKit JS, TypeScript) while also adding and bridging features on the web platform (Java).
-      - Led various initiatives including in-app purchasing (nearly doubling monthly sales), increasing app store ratings (from 2.8 to 4.8 stars), and adding type safety to the codebase.
-      - Developed features end-to-end including web service endpoints including Chromecast, session handling, favorites, live-streaming, and site localization preferences.
-      - Managed application lifecycle including participating in product roadmapping meetings, sprint planning, release scheduling, over-the-air-updates, and monitoring system stability.
+      - Designed a system to track anonymous in-app purchases and link them with users upon login.
+      - Implemented in-app purchasing on iOS and tvOS nearly doubling monthly revenue.
+      - Redesigned the mobile application and increased store ratings from 2.8 to 4.8+ stars.
+      - Developed features including Chromecast, session handling, favorites, and live-streaming.
+      - Managed 5+ mobile platforms independently and then with 1 other engineer.
   - years: 5/2018--10/2018
     employer: SAIC
     title: Software Engineer Intern
     location: Orlando
     points:
-      - Worked on a procurement modernization project with 1,000+ expected users and 65,000+ records (ASP.NET Core, Entity Framework) by adding integrations including Documentum (file management) and features including user registration (with email and token validation) and file upload.
+      - Developed the user registration and file upload flows for a procurement modernization project.
+      - Developed the procurement request views with ASP.NET Core and Entity Framework.
   - years: 2/2018--5/2018
     employer: University of Central Florida
     title: Techranger (Software Developer)
     location: Orlando
     points:
-      - Worked on UDOIT, an LTI integration used by over 50 institutions worldwide that identifies accessibility issues in online course content, adding an admin panel (PHP, SQL) and making testing easier by Dockerizing the codebase.
+      - Developed an admin panel for UDOIT with PHP and SQL.
+      - Docker-ized the project to aid in testing setup and teardown.
 
 education:
   - year: 8/2014--10/2019
