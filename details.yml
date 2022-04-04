@@ -12,7 +12,7 @@ urls:
 
 skills:
   - Mobile and Full-Stack software development
-  - React Native, React, TypeScript
+  - React Native, React, Redux, TypeScript
 
 experience:
   - years: 5/2021--
@@ -48,7 +48,7 @@ experience:
     location: Orlando
     points:
       - Developed an admin panel for UDOIT with PHP and SQL.
-      - Docker-ized the project to aid in testing setup and teardown.
+      - Improved development environment setup and teardown with Docker.
 
 education:
   - year: 8/2014--10/2019
