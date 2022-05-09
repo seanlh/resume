@@ -1,0 +1,4 @@
+input-file: details.yml
+from: markdown
+template: template.tex
+pdf-engine: xelatex
