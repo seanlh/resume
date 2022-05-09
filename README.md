@@ -12,7 +12,7 @@
    curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
    ```
 
-3. Install LaTeX dependencies (**Note: Requires sudo access**)
+3. Install LaTeX dependencies
    ```
    tlmgr install xltxtra marginnote sectsty ulem polyglossia enumitem realscripts
    ```
