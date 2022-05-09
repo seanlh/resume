@@ -2,7 +2,7 @@
 # Personal details
 name: Sean L. Hernandez
 address: San Francisco, California
-phone: +1 954 740 9844
+phone: +1 (954) 740-9844
 email: sean.lh@icloud.com
 # Insert URLs without http://
 urls:
@@ -11,7 +11,7 @@ urls:
 # Sections
 
 skills:
-  - Mobile and Full-Stack software development
+  - Mobile and Full-Stack Software Development
   - React Native, React, Redux, TypeScript
 
 experience:
