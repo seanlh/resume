@@ -32,3 +32,5 @@ template.out
 template.pdf
 template.tex
 template.synctex.gz
+template.fdb_latexmk
+template.fls
