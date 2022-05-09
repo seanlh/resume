@@ -1,7 +1,7 @@
 .PHONY: clean
 
-resume_hernandez-sean.pdf: defaults.yml details.yml template.tex
-	pandoc -d defaults.yml -o $@
+Sean\ L\ Hernandez's\ Resume.pdf: defaults.yml details.yml template.tex
+	pandoc -d defaults.yml -o "$@"
 
 clean:
-	rm resume_hernandez-sean.pdf
+	rm Sean\ L\ Hernandez\'s\ Resume.pdf
