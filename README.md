@@ -2,22 +2,22 @@
 
 ## Installation
 
-1. Install Basic TeX
+1. Make `/usr/local/bin` writeable *(if it does not exist, create it first)*
    ```
-   brew install --cask basictex
-   ```
-
-2. Update `tlmgr` (**Note: Requires sudo access**)
-   ```
-   sudo tlmgr update --self
+   sudo chown -R $(whoami) /usr/local/bin
    ```
 
-2. Install LaTeX dependencies (**Note: Requires sudo access**)
+2. Install TinyTeX
    ```
-   sudo tlmgr install fontspec geometry multicol xunicode xltxtra marginnote sectsty ulem hyperref polyglossia enumitem
+   curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
    ```
 
-3. Install Pandoc
+3. Install LaTeX dependencies (**Note: Requires sudo access**)
+   ```
+   tlmgr install xltxtra marginnote sectsty ulem polyglossia enumitem realscripts
+   ```
+
+4. Install Pandoc
    ```
    brew install pandoc
    ```
@@ -30,13 +30,20 @@ Fill in `details.yml` with your personal information and run `make` in the proje
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box (thanks, XeTeX!).
+- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box thanks to XeTeX.
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
 
+# Uninstallation
+```
+tlmgr path remove
+sudo rm -rf ~/Library/TinyTeX
+```
+
 ## Resources
 
+- [TinyTeX](https://yihui.org/tinytex/) is a lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live.
 - Refer to [pandoc's documentation](http://pandoc.org/MANUAL.html#templates) to learn more about how templates work.
 - If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a good overview.
 - If you want to edit the template but LaTeX scares you, these [docs](https://www.sharelatex.com/learn/Main_Page) put together by ShareLaTeX cover most of the basics and are surprisingly kind to the beginner.
