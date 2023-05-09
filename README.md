@@ -14,7 +14,7 @@
 
 3. Install LaTeX dependencies
    ```
-   tlmgr install xltxtra marginnote sectsty ulem polyglossia enumitem realscripts
+   sudo tlmgr install xltxtra marginnote sectsty ulem polyglossia enumitem realscripts
    ```
 
 4. Install Pandoc
