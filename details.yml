@@ -12,7 +12,7 @@ urls:
 
 skills:
   - Mobile and Full-Stack Software Development
-  - React Native, React, Redux, TypeScript
+  - TypeScript, React, React Native
 
 experience:
   - years: 5/2021--
@@ -20,9 +20,8 @@ experience:
     title: Software Development Engineer III
     location: San Francisco
     points:
-      - Developed dynamic templates for in-app messages and paywalls for multiple client apps with millions of users with TypeScript and React.
-      - Maintained a web-based preview tool for in-app messages and paywalls.
-      - Worked with content teams to streamline parallel workflows and improve template flexibility.
+      - Worked with leaders across the organization to identify, prototype, and create a dashboard for managing content pipelines (creation, WYSIWYG editing, testing on-device, audience targeting, and localization) increasing experimentation throughput by 50x.
+      - Developed, maintained, and provided support for an in-app message and paywall content system for apps with millions of users.
   - years: 9/2019--4/2021
     employer: Comcast NBCUniversal
     title: Software Engineer II
@@ -30,25 +29,21 @@ experience:
   - years: 10/2018--9/2019
     title: Software Engineer I
     points:
-      - Designed a system to track anonymous in-app purchases and link them with users upon login.
-      - Implemented in-app purchasing on iOS and tvOS nearly doubling monthly revenue.
-      - Redesigned the mobile application and increased store ratings from 2.8 to 4.8+ stars.
-      - Developed features including Chromecast, session handling, favorites, and live-streaming.
-      - Managed 5+ mobile platforms independently and then with 1 other engineer.
+      - Implemented in-app purchasing with tracking for anonymous workflows on iOS and tvOS doubling monthly revenue.
+      - Developed features such as Chromecast integration, favoriting, and live-streaming for 5+ mobile platforms.
+      - Redesigned the mobile application increasing store ratings from 2.8 to 4.8+ stars.
   - years: 5/2018--10/2018
     employer: SAIC
     title: Software Engineer Intern
     location: Orlando
     points:
-      - Developed the user registration and file upload flows for a procurement modernization project.
-      - Developed the procurement request views with ASP.NET Core and Entity Framework.
+      - Developed user registration, file upload, and procurement workflows for a modernization project with 1,000+ users.
   - years: 2/2018--5/2018
     employer: University of Central Florida
     title: Techranger (Software Developer)
     location: Orlando
     points:
-      - Developed an admin panel for UDOIT with PHP and SQL.
-      - Improved development environment setup and teardown with Docker.
+      - Developed an admin panel and a local development environment for an accessibility tool used by over 50 institutions worldwide called UDOIT.
 
 education:
   - year: 8/2014--10/2019
