@@ -30,10 +30,8 @@ $endif$
 % TYPOGRAPHY
 %--------------------------------
 \usepackage{fontspec}
-\usepackage{xunicode}
-\usepackage{xltxtra}
-% converts LaTeX specials (quotes, dashes etc.) to Unicode
-\defaultfontfeatures{Mapping=tex-text}
+% converts TeX-style quotes/dashes to Unicode equivalents
+\defaultfontfeatures{Ligatures=TeX}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
 \DeclareFontShape{TU}{HoeflerText(0)}{m}{sc}%
        {<-> "Hoefler\space Text:Letter\space Case=Small\space Caps"}{}
@@ -50,11 +48,10 @@ $endif$
 
 % HEADINGS
 %--------------------------------
-\usepackage{sectsty}
-\usepackage[normalem]{ulem}
-\sectionfont{\rmfamily\mdseries}
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+\usepackage{titlesec}
+\titleformat{\section}{\rmfamily\mdseries\Large}{}{0pt}{}
+\titleformat{\subsection}{\rmfamily\mdseries\scshape\normalsize}{}{0pt}{}
+\titleformat{\subsubsection}{\rmfamily\bfseries\normalsize}{}{0pt}{}
 
 % LIST
 %--------------------------------
@@ -92,7 +89,7 @@ $endif$
   \columnbreak
   \href{mailto:$email$}{$email$}\\
   $for(urls)$
-    \href{http://$urls$}{$urls$}\\
+    \href{https://$urls$}{$urls$}\\
   $endfor$
 \end{multicols}
 
@@ -111,23 +108,23 @@ $endif$
 
 \section*{Work Experience}
 $for(experience)$
-  $if(experience.employer)$
-    \textsc{$experience.employer$}\\
-    $if(experience.location)$
-      $experience.location$\\
+  \textsc{$experience.employer$}\\
+  $if(experience.location)$
+    $experience.location$\\
+  $endif$
+  $for(experience.roles)$
+    \note{$experience.roles.years$}\emph{$experience.roles.title$}
+    $if(experience.roles.points)$
+      \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt]
+        $for(experience.roles.points)$
+          \item $experience.roles.points$
+        $endfor$
+      \end{itemize}
+    $else$
+      \par
     $endif$
-  $else$
-    \\
-  $endif$
-  \note{$experience.years$}\emph{$experience.title$}
-  $if(experience.points)$
-    \begin{itemize}[noitemsep, topsep=2pt]
-      $for(experience.points)$
-        \item $experience.points$
-      $endfor$
-    \end{itemize}
-    \ \\
-  $endif$
+  $endfor$
+  $sep$\vspace{16pt}
 $endfor$
 
 $if(education)$

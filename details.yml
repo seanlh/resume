@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Sean L. Hernandez
-address: San Francisco, California
+address: Miramar, Florida
 phone: +1 (954) 740-9844
 email: sean.lh@icloud.com
 # Insert URLs without http://
@@ -15,36 +15,40 @@ skills:
   - TypeScript, React, React Native
 
 experience:
-  - years: 5/2021--
-    employer: Adobe
-    title: Software Development Engineer III
-    location: San Francisco
-    points:
-      - Worked with leaders across the organization to identify, prototype, and create a dashboard for managing content pipelines (creation, WYSIWYG editing, testing on-device, audience targeting, and localization) increasing experimentation throughput by 50x.
-      - Developed, maintained, and provided support for an in-app message and paywall content system for apps with millions of users.
-  - years: 9/2019--4/2021
-    employer: Comcast NBCUniversal
-    title: Software Engineer II
+  - employer: Adobe
+    location: Miramar & San Francisco
+    roles:
+      - years: 6/2023--
+        title: Senior Software Development Engineer
+      - years: 5/2021--6/2023
+        title: Software Development Engineer
+        points:
+          - Owned significant portions of Adobe’s engagement and growth platform stack, including client support flows, content delivery and integration, and SDK configuration across multiple web and desktop surfaces.
+          - Delivered end-to-end engineering for key SDK and simulation capabilities—translating product requirements into production implementations across frontend, backend API integrations, validation, and release support.
+          - Improved platform reliability and developer experience through test/CI hardening, configuration validation, and production issue remediation, enabling more stable releases and faster cross-team integration.
+  - employer: Comcast NBCUniversal
     location: Orlando
-  - years: 10/2018--9/2019
-    title: Software Engineer I
-    points:
-      - Implemented in-app purchasing with tracking for anonymous workflows on iOS and tvOS doubling monthly revenue.
-      - Developed features such as Chromecast integration, favoriting, and live-streaming for 5+ mobile platforms.
-      - Redesigned the mobile application increasing store ratings from 2.8 to 4.8+ stars.
-  - years: 5/2018--10/2018
-    employer: SAIC
-    title: Software Engineer Intern
+    roles:
+      - years: 9/2019--4/2021
+        title: Software Engineer II
+      - years: 10/2018--9/2019
+        title: Software Engineer I
+        points:
+          - Implemented in-app purchases and tracking for anonymous workflows on iOS and tvOS, doubling monthly revenue.
+          - Developed features such as Chromecast integration, favoriting, and live streaming for 5+ mobile platforms.
+          - Redesigned the mobile application, increasing store ratings from 2.8 to 4.8+ stars.
+  - employer: SAIC
     location: Orlando
-    points:
-      - Developed user registration, file upload, and procurement workflows for a modernization project with 1,000+ users.
-  - years: 2/2018--5/2018
-    employer: University of Central Florida
-    title: Techranger (Software Developer)
+    roles:
+      - years: 5/2018--10/2018
+        title: Software Engineer Intern
+        points:
+         - Developed user registration, file upload, and procurement workflows for a modernization project with 1,000+ users.
+  - employer: University of Central Florida
     location: Orlando
-    points:
-      - Developed an admin panel and a local development environment for an accessibility tool used by over 50 institutions worldwide called UDOIT.
-
+    roles:
+      - years: 2/2018--5/2018
+        title: Techranger (Software Developer)
 education:
   - year: 8/2014--10/2019
     subject: Computer Science

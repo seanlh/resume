@@ -14,7 +14,7 @@
 
 3. Install LaTeX dependencies
    ```
-   sudo tlmgr install xltxtra marginnote sectsty ulem polyglossia enumitem realscripts
+   tlmgr install geometry multicol polyglossia fontspec marginnote titlesec enumitem hyperref
    ```
 
 4. Install Pandoc
@@ -24,7 +24,7 @@
 
 ## Usage
 
-Fill in `details.yml` with your personal information and run `make` in the project root. See [resume_hernandez-sean.pdf](resume_hernandez-sean.pdf) for output.
+Fill in `details.yml` with your personal information and run `make` in the project root. See [Sean L Hernandez's Resume.pdf](Sean L Hernandez's Resume.pdf) for output.
 
 >**Note**: This template needs to be compiled with XeTeX.
 
